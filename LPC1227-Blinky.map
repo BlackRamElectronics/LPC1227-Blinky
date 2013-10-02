@@ -15,7 +15,7 @@ c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/
 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a(_exit.o)
                               c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-exit.o) (_exit)
 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv6-m\libgcc.a(_udivsi3.o)
-                              C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\ccTyb65F.ltrans0.ltrans.o (__aeabi_uidiv)
+                              C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\cctPCzyE.ltrans0.ltrans.o (__aeabi_uidiv)
 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv6-m\libgcc.a(_dvmd_tls.o)
                               c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv6-m\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
 
@@ -44,17 +44,17 @@ Discarded input sections
  .ARM.exidx     0x00000000        0x8 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
  .ARM.attributes
                 0x00000000       0x1c c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
- .text          0x00000000        0x0 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\ccUwWxft.o (symbol from plugin)
- .text          0x00000000        0x0 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\ccTyb65F.ltrans0.ltrans.o
- .data          0x00000000        0x0 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\ccTyb65F.ltrans0.ltrans.o
- .bss           0x00000000        0x0 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\ccTyb65F.ltrans0.ltrans.o
+ .text          0x00000000        0x0 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\ccAEtIwq.o (symbol from plugin)
+ .text          0x00000000        0x0 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\cctPCzyE.ltrans0.ltrans.o
+ .data          0x00000000        0x0 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\cctPCzyE.ltrans0.ltrans.o
+ .bss           0x00000000        0x0 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\cctPCzyE.ltrans0.ltrans.o
  .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv6-m\libgcc.a(_udivsi3.o)
  .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv6-m\libgcc.a(_udivsi3.o)
  .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv6-m\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv6-m\libgcc.a(_dvmd_tls.o)
- .text          0x00000000        0x0 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\cchslVYS.o (symbol from plugin)
- .data          0x00000000        0x0 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\ccILfr1k.o
- .bss           0x00000000        0x0 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\ccILfr1k.o
+ .text          0x00000000        0x0 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\ccXFNVyN.o (symbol from plugin)
+ .data          0x00000000        0x0 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\cco5ChUc.o
+ .bss           0x00000000        0x0 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\cco5ChUc.o
  .text          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-__atexit2.o)
  .data          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-__atexit2.o)
  .bss           0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-__atexit2.o)
@@ -140,12 +140,12 @@ Linker script and memory map
 LOAD c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv6-m/crti.o
 LOAD c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv6-m/crtbegin.o
 LOAD c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
-LOAD C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\ccUwWxft.o
-LOAD C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\ccTyb65F.ltrans0.ltrans.o
+LOAD C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\ccAEtIwq.o
+LOAD C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\cctPCzyE.ltrans0.ltrans.o
 LOAD c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv6-m\libgcc.a
 LOAD c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv6-m\libc_s.a
-LOAD C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\cchslVYS.o
-LOAD C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\ccILfr1k.o
+LOAD C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\ccXFNVyN.o
+LOAD C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\cco5ChUc.o
 LOAD c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv6-m\libc_s.a
 LOAD c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv6-m\libc_s.a
 LOAD c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv6-m\libnosys.a
@@ -156,35 +156,35 @@ END GROUP
 LOAD c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv6-m/crtend.o
 LOAD c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv6-m/crtn.o
 
-.text           0x00000000      0x29c
+.text           0x00000000      0x284
  *(.isr_vector)
- .isr_vector    0x00000000       0x44 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\ccILfr1k.o
+ .isr_vector    0x00000000       0x44 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\cco5ChUc.o
                 0x00000000                __isr_vector
  *(.text*)
  .text.SystemInit
-                0x00000044       0xb0 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\ccTyb65F.ltrans0.ltrans.o
+                0x00000044       0xb0 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\cctPCzyE.ltrans0.ltrans.o
                 0x00000044                SystemInit
  .text.SysTick_Handler
-                0x000000f4       0x10 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\ccTyb65F.ltrans0.ltrans.o
+                0x000000f4       0x10 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\cctPCzyE.ltrans0.ltrans.o
                 0x000000f4                SysTick_Handler
  .text.startup.main
-                0x00000104       0xac C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\ccTyb65F.ltrans0.ltrans.o
+                0x00000104       0x94 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\cctPCzyE.ltrans0.ltrans.o
                 0x00000104                main
- .text          0x000001b0       0x9c c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv6-m\libgcc.a(_udivsi3.o)
-                0x000001b0                __aeabi_uidiv
-                0x000001b0                __udivsi3
-                0x00000238                __aeabi_uidivmod
- .text          0x0000024c        0x4 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv6-m\libgcc.a(_dvmd_tls.o)
-                0x0000024c                __aeabi_idiv0
-                0x0000024c                __aeabi_ldiv0
- .text          0x00000250       0x4c C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\ccILfr1k.o
-                0x00000250                Reset_Handler
-                0x00000290                NMI_Handler
-                0x00000292                HardFault_Handler
-                0x00000294                SVC_Handler
-                0x00000296                PendSV_Handler
-                0x0000029a                DEF_IRQHandler
-                0x0000029a                Default_Handler
+ .text          0x00000198       0x9c c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv6-m\libgcc.a(_udivsi3.o)
+                0x00000198                __aeabi_uidiv
+                0x00000198                __udivsi3
+                0x00000220                __aeabi_uidivmod
+ .text          0x00000234        0x4 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv6-m\libgcc.a(_dvmd_tls.o)
+                0x00000234                __aeabi_idiv0
+                0x00000234                __aeabi_ldiv0
+ .text          0x00000238       0x4c C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\cco5ChUc.o
+                0x00000238                Reset_Handler
+                0x00000278                NMI_Handler
+                0x0000027a                HardFault_Handler
+                0x0000027c                SVC_Handler
+                0x0000027e                PendSV_Handler
+                0x00000282                DEF_IRQHandler
+                0x00000282                Default_Handler
  *(.init)
  *(.fini)
  *crtbegin.o(.ctors)
@@ -200,39 +200,39 @@ LOAD c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-
  *(.rodata*)
  *(.eh_frame*)
 
-.glue_7         0x0000029c        0x0
+.glue_7         0x00000284        0x0
  .glue_7        0x00000000        0x0 linker stubs
 
-.glue_7t        0x0000029c        0x0
+.glue_7t        0x00000284        0x0
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x0000029c        0x0
+.vfp11_veneer   0x00000284        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x0000029c        0x0
+.v4_bx          0x00000284        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x0000029c        0x0
+.iplt           0x00000284        0x0
  .iplt          0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv6-m/crtbegin.o
 
-.rel.dyn        0x0000029c        0x0
+.rel.dyn        0x00000284        0x0
  .rel.iplt      0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv6-m/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000029c                __exidx_start = .
+                0x00000284                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0000029c                __exidx_end = .
-                0x0000029c                __etext = .
+                0x00000284                __exidx_end = .
+                0x00000284                __etext = .
 
-.data           0x10000000        0x4 load address 0x0000029c
+.data           0x10000000        0x4 load address 0x00000284
                 0x10000000                __data_start__ = .
  *(vtable)
  *(.data*)
  .data.SystemCoreClock
-                0x10000000        0x4 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\ccTyb65F.ltrans0.ltrans.o
+                0x10000000        0x4 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\cctPCzyE.ltrans0.ltrans.o
                 0x10000004                . = ALIGN (0x4)
                 0x10000004                PROVIDE (__preinit_array_start, .)
  *(.preinit_array)
@@ -251,14 +251,14 @@ LOAD c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-
                 0x10000004                . = ALIGN (0x4)
                 0x10000004                __data_end__ = .
 
-.igot.plt       0x10000004        0x0 load address 0x000002a0
+.igot.plt       0x10000004        0x0 load address 0x00000288
  .igot.plt      0x00000000        0x0 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv6-m/crtbegin.o
 
-.bss            0x10000004        0x4 load address 0x000002a0
+.bss            0x10000004        0x4 load address 0x00000288
                 0x10000004                . = ALIGN (0x4)
                 0x10000004                __bss_start__ = .
  *(.bss*)
- .bss.msTicks   0x10000004        0x4 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\ccTyb65F.ltrans0.ltrans.o
+ .bss.msTicks   0x10000004        0x4 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\cctPCzyE.ltrans0.ltrans.o
  *(COMMON)
                 0x10000008                . = ALIGN (0x4)
                 0x10000008                __bss_end__ = .
@@ -267,12 +267,12 @@ LOAD c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-
                 0x10000008                __end__ = .
                 0x10000008                end = __end__
  *(.heap*)
- .heap          0x10000008        0x0 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\ccILfr1k.o
+ .heap          0x10000008        0x0 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\cco5ChUc.o
                 0x10000008                __HeapLimit = .
 
 .stack_dummy    0x10000008      0xc00
  *(.stack*)
- .stack         0x10000008      0xc00 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\ccILfr1k.o
+ .stack         0x10000008      0xc00 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\cco5ChUc.o
                 0x10002000                __StackTop = (ORIGIN (RAM) + 0x2000)
                 0x10001400                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
                 0x10002000                PROVIDE (__stack, __StackTop)
@@ -280,19 +280,19 @@ LOAD c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-
 OUTPUT(LPC1227-Blinky-CM0.axf elf32-littlearm)
 
 .comment        0x00000000       0x70
- .comment       0x00000000       0x70 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\ccTyb65F.ltrans0.ltrans.o
+ .comment       0x00000000       0x70 C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\cctPCzyE.ltrans0.ltrans.o
                                  0x71 (size before relaxing)
 
 .ARM.attributes
                 0x00000000       0x28
  .ARM.attributes
-                0x00000000       0x2f C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\ccTyb65F.ltrans0.ltrans.o
+                0x00000000       0x2f C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\cctPCzyE.ltrans0.ltrans.o
  .ARM.attributes
                 0x0000002f       0x1e c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv6-m\libgcc.a(_udivsi3.o)
  .ARM.attributes
                 0x0000004d       0x1e c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv6-m\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x0000006b       0x1b C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\ccILfr1k.o
+                0x0000006b       0x1b C:\DOCUME~1\REUBEN~1.MOR\LOCALS~1\Temp\cco5ChUc.o
 
 .debug_frame    0x00000000       0x20
  .debug_frame   0x00000000       0x20 c:/program files/gnu tools arm embedded/4.7 2013q2/bin/../lib/gcc/arm-none-eabi/4.7.4/armv6-m\libgcc.a(_udivsi3.o)
